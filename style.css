@@ -1,0 +1,17 @@
+@import url(reset.css);
+@import url(variable.css);
+/* screens */
+@import url(CSS/screens/login.css);
+@import url(CSS/screens/friends.css);
+@import url(CSS/screens/chats.css);
+
+/* components */
+@import url(CSS/components/topBar.css);
+@import url(CSS/components/header.css);
+@import url(CSS/components/navBar.css);
+@import url(CSS/components/dot.css);
+*{
+    box-sizing: border-box;
+}
+
+

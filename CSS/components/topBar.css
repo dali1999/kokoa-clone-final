@@ -1,0 +1,23 @@
+.topBar {
+  padding: 8px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 100%;
+}
+.topBar div {
+  width: 33%;
+  display: flex;
+  gap: 5px;
+  
+  align-items: center;
+}
+.topBar div:nth-child(2) {
+  padding-top: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: center;
+}
+.topBar div:nth-child(3) {
+  justify-content: right;
+}

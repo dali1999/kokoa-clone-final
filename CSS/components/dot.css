@@ -1,0 +1,31 @@
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(225, 95, 8);
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.dot-chats {
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  bottom: 13px;
+  left: 13px;
+}
+
+.dot-settings {
+  bottom: 21px;
+  left: 21px;
+}
+
+.dot-chatbox {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  font-size:x-small
+}

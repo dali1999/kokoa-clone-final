@@ -1,0 +1,14 @@
+.header{
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.header p{
+    font-weight: 700;
+    font-size: 27px;
+}
+.header__icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

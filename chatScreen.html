@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="chatScreen">
+    <div class="topBar">
+      <div>
+        <p>No Service</p>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div><p>21:23</p></div>
+      <div>
+        <p>62%</p>
+        <i class="fas fa-battery-half"></i><i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="midBar">
+      <a class="midBar__left" href="chats.html"
+        ><i class="fas fa-chevron-left fa-lg"></i
+      ></a>
+      <span class="midBar__center">Mia</span>
+      <div class="midBar__right">
+        <a href="#"><i class="fas fa-search fa-lg"></i></a>
+        <a href="#"><i class="fas fa-bars fa-lg"></i></a>
+      </div>
+    </div>
+
+    <div class="chatScreen__main">
+
+      <div class="chatScreen__main__date">
+        <span>Monday, September 20, 2021</span>
+      </div>
+
+      <div class="chatScreen__main__messageRecept">
+        <img
+          class="chatScreen__main__messageRecept-profile"
+          src="userProfile/1.jpg"
+        />
+        <div>
+          <span class="chatScreen__main__messageRecept-name"
+            >Mia
+          </span>
+          <div class="chatScreen__main__messageRecept-message">
+              <div>
+                  <span>Hi!</span>
+                  <span>21:27</span>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chatScreen__main__messageSend">
+          <div>
+              <span>21:30</span>
+              <span>What's up?</span>
+          </div>
+      </div>
+
+    </div>
+
+    <div class="chatScreen__typeBar">
+      <a class="chatScreen__typeBar__plus" href="#"
+        ><i class="far fa-plus-square fa-2x"></i
+      ></a>
+      <div class="chatScreen__typeBar__typeBox">
+        <input class="chatScreen__typeBar__typeBox__input" type="text" />
+        <div>
+          <a class="chatScreen__typeBar__typeBox__emo" href="#"
+            ><i class="far fa-smile fa-lg"></i
+          ></a>
+          <a class="chatScreen__typeBar__typeBox__send" href="#"
+            ><i class="fas fa-arrow-up fa-lg"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+    
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  </body>
+  </html>
+  

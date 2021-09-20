@@ -1,0 +1,36 @@
+.settings__main {
+  margin: 20px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.settings__main a {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  transition: 0.1s ease-in-out;
+}
+.settings__main a:hover {
+  letter-spacing: 2px;
+}
+.settings__main__info,
+.settings__main__setting {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.settings__main__info {
+  padding: 20px 0 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.settings__main__setting {
+  padding: 40px 0;
+}
+.settings__main div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.settings__main div span:nth-child(2){
+    color: var(--gray);
+}

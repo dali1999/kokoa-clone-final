@@ -1,0 +1,116 @@
+.find__add,
+.more__icons__firstRow,
+.more__icons__secondRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  
+}
+.find__add div,
+.more__icons__firstRow div,
+.more__icons__secondRow div {
+  width: 25%;
+}
+.find__add a,
+.more__icons__firstRow a,
+.more__icons__secondRow a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-weight: bold;
+  font-size: small;
+}
+
+
+.find-mainscreen {
+  font-weight: bold;
+  margin: 15px;
+}
+.find__recommend {
+  margin-bottom: 20px;
+}
+.find__recommend__title,
+.find__openchat__title {
+  color: var(--gray);
+  font-size: small;
+}
+.find__recommend__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: var(--gray);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.find__openchat__title {
+  display: flex;
+  justify-content: space-between;
+}
+.find__openchat__title p,
+.find__openchat__title a {
+  color: var(--gray);
+}
+.fa-chevron-right {
+  font-size: smaller;
+  margin-left: 8px;
+}
+.find__openchat__box {
+  height: 400px;
+}
+.find__openchatContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.find__openchatContent__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.find__openchatContent__text span:nth-child(2) {
+  color: var(--gray);
+  font-size: 0.9em;
+}
+.find__openchatContent__text span:nth-child(3) {
+  color: var(--gray);
+  font-size: 0.8em;
+}
+
+.text-highlight {
+  color: rgb(243, 20, 217);
+}
+.find__openchatContent__cover {
+  position: relative;
+}
+.find__openchatContent__cover img {
+  background-color: sandybrown;
+  width: 100px;
+  height: 100px;
+  border-radius: 7px;
+}
+.find__openchatContent__cover a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.7em;
+  font-weight: normal;
+  color: #fff;
+  width: 60px;
+  height: 20px;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+.find__openchatContent__cover a:active {
+  color: red;
+}

@@ -1,0 +1,123 @@
+.chatScreen {
+  background-color: #bfd1dd;
+  height: 100vh;
+}
+.chatScreen__main {
+  margin-top: 30px;
+
+}
+.chatScreen__main__date {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.chatScreen__main__date span {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  font-size: 0.7em;
+}
+
+.chatScreen__main__messageRecept,
+.chatScreen__main__messageSend {
+  height: 70px;
+  display: flex;
+  gap: 8px;
+  margin: 6px 14px;
+  
+}
+.chatScreen__main__messageRecept-profile {
+  width: 43px;
+  height: 43px;
+  position: relative;
+  border-radius: 15px;
+}
+.chatScreen__main__messageRecept-name {
+  font-size: 0.8em;
+}
+.chatScreen__main__messageRecept-message span:nth-child(1) {
+  background-color: #fff;
+  padding: 7px 9px;
+  border-radius: 0 10px 10px;
+}
+.chatScreen__main__messageRecept-message span:nth-child(2) {
+  font-size: 0.7em;
+  position: absolute;
+  top: 15px;
+  left: 42px;
+}
+.chatScreen__main__messageRecept-message div {
+  position: relative;
+  top: 17px;
+}
+
+.chatScreen__main__messageSend{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    height: 30px;
+}
+.chatScreen__main__messageSend span:nth-child(1){
+    position: absolute;
+    right: 107px;
+    top: 15px;
+    font-size: 0.7em;
+}
+.chatScreen__main__messageSend span:nth-child(2){
+    position: relative;
+    background-color: var(--yellow);
+    padding: 7px 9px;
+    border-radius: 10px 0 10px 10px;
+}
+
+
+.chatScreen__typeBar {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+}
+.chatScreen__typeBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14px;
+}
+.chatScreen__typeBar__typeBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 3px;
+  width: 90%;
+}
+.fa-plus-square,
+.fa-smile {
+  color: var(--gray);
+}
+.chatScreen__typeBar__typeBox__input {
+  width: 80%;
+  border: none;
+  outline: none;
+  margin-left: 7px;
+}
+.chatScreen__typeBar__typeBox div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.chatScreen__typeBar__typeBox__send {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+}
